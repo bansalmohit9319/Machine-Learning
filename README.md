@@ -1,28 +1,69 @@
-# Machine-Learning
+# AI Student Performance Dashboard
 
-This repository contains my Machine Learning and Python practice projects, along with experiments, problem-solving files, and learning resources that I’m building while improving my development skills.
+An interactive Machine Learning dashboard built using Streamlit that predicts student performance based on study hours, attendance, and marks.
 
-The main purpose of this repository is to strengthen my understanding of:
-- Python programming
-- Git & GitHub workflow
-- Data handling and automation
-- Core Machine Learning concepts
+The project compares multiple machine learning models and selects the best-performing model for prediction.
 
-Currently, the repository includes beginner-to-intermediate level practice files, and it will continue to grow with more structured projects, datasets, and model implementations.
+---
 
-## Technologies & Tools
+## Features
+
+- Student performance prediction system
+- CSV dataset upload support
+- Real-time prediction confidence score
+- Random Forest & Logistic Regression model comparison
+- Feature importance analysis
+- Interactive dashboard interface
+- Dataset analytics and visualizations
+- Download processed dataset as CSV
+
+---
+
+## Technologies Used
+
 - Python
-- Git
-- GitHub
+- Streamlit
+- Pandas
+- Matplotlib
+- Scikit-learn
 
-## Repository Structure
-- `test.py` — Initial Python practice file
+---
 
-## Future Goals
-- Add Machine Learning mini-projects
-- Work on data analysis and visualization
-- Build real-world datasets projects
-- Improve project structure and documentation
+## Machine Learning Models
 
-## Author
-Mohit Bansal
+- Random Forest Classifier
+- Logistic Regression
+
+---
+
+## Input Parameters
+
+The prediction system uses:
+- Study Hours
+- Attendance Percentage
+- Marks
+
+---
+
+## Dashboard Functionalities
+
+- Upload custom student datasets
+- View dataset preview
+- Compare model accuracy
+- Predict PASS / FAIL results
+- Analyze feature importance
+- Visualize attendance and marks trends
+- Export dataset reports
+
+---
+
+## Project Structure
+
+- `test.py` — Main Streamlit application file
+
+---
+
+## How to Run
+
+```bash
+streamlit run "Student performance predictor.py"
